@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    display: flex;
+    background-color: rgb(200, 200, 200);
+}
+
+h1{
+    font-family: 'Upheaval TT (BRK)', sans-serif;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav{
+    width: 20vw;
+    min-height: 100vw;
+    border: 8px solid rgb(134, 82, 14);
+    background-color: burlywood;
+    font-size: 32px;
+}
+
+table{
+    border: 5px solid rgb(134, 82, 14);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    border: 5px solid rgb(134, 82, 14);
+    width: 100%;
+    text-align: left;
+}
+
+td{
+    border: 5px solid rgb(134, 82, 14);
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    min-height: 20vw;
+    background-image: url(../img/isaacBackground.jpg);
+    background-repeat: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 100%;
+    min-height: 60vw;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(177, 176, 176);
+    display: flex;
+    justify-content: center;
+    align-items: end;  
+}
+
+footer{
+    width: 100%;
+    min-height: 20vw;
+    font-size: 10px;
+    color: rgb(177, 176, 176);
+    display: flex;
+    justify-content: center;
+    align-items: top;  
+}
+
+#Pub{
+    width: 20vw;
+    min-height: 100vw; 
+    text-align: center;
+    border: 2px solid black;
+    font-size: 32px;
+}
+
+#center{
+    background-image: url(../img/boibackground.png);
+    background-size: 50%;
+    width: 60vw;
+    min-height: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
